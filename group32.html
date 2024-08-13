@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--social media links-->
+    <script src="https://kit.fontawesome.com/6eaf4871ae.js" crossorigin="anonymous"></script>
+    <style>
+        .main_head{
+            display:flex;
+            width:100%;
+            background: #C04848;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .main_head .navbar ul li{
+            float:left;
+            margin-left:40px;
+        }
+        .button_head{
+            right:15px;
+            position:absolute;
+            width:80px;
+            border:2px solid blue;
+            border-radius: 5px;
+            background-color: white;
+            height:30px;
+            font-size: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+        .navbar ul li a{
+            text-decoration:none;
+            font-size:1.5rem;
+            color:white;
+            
+        }
+        .navbar ul li a:hover{
+            font-size:1.7rem;
+            color:red;
+        }
+        .navbar ul li{
+            list-style-type: none;
+        }
+        .login a{
+            color:white;
+            background-color:red;
+            border:2px solid red;
+            border-radius:5px;
+        }
+        .button_head a{
+            text-decoration:none;
+            
+        }
+        h1{
+            color:white;
+        }
+        .details img{
+            width:300px;
+            height:200px;
+            border-radius:10px;
+        }
+        .details{
+            display:flex;
+            gap:80px;
+        }
+        .box{
+            width:300px;
+            border-radius:10px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+            text-align:center;
+        }
+        .last p{
+            color:white;
+            background-color:black;
+            height:50px;
+            font-size:1.5rem;
+            place-content: center;
+        }
+        * {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        margin: 30px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .container {
+        background-color: rgb(44, 5, 107);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 80px;
+        font-weight: bold;
+        margin: 30px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+   .container #link a{
+        margin-top: 10px;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .container-1 {
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+    }
+
+    .container-1 #cont-1 {
+        background-color: blueviolet;
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+
+    }
+
+    .container-1 #cont-2 {
+        background-color: rgb(189, 128, 247);
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: start;
+    }
+
+    .container-1 #cont-3 {
+        color: black;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .container-2 #cont2-1 {
+        background-color: rgb(49, 5, 90);
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        text-align: start;
+        text-transform: uppercase;
+        text-decoration: none;
+
+    }
+
+    .container-2 #cont2-2 {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left:30%;
+    
+    }
+    .container-3 #cont3-1{
+        margin: 10px;
+        padding: 10px;
+        background-color: rgb(30, 9, 50);
+        color: white;
+        margin-left: 45%;
+
+    }
+    #cont-1 a{
+        color:white;
+        text-decoration:none;
+        margin-left:15px;
+    }
+    .footer{
+        display:flex;
+        border:2px solid black;
+        margin-top:50px;
+        background: #003973;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .second_row img{
+        width:20px;
+        height:20px;
+    }
+    .second_row li{
+        list-style-type: none;
+       float:left;
+    }
+    .second_row{
+        margin-left:30%;
+        margin-top:5%;
+    }
+    .first_row{
+        margin-left:25%;
+        margin-top:5%;
+    }
+.first_row li a{
+    text-decoration:none;
+    color:black;
+}
+.first_row li {
+    list-style-type: none;
+}
+    </style>
+</head>
+<body>
+    <div class="main_head">
+        <h1 style="margin-right:150px">DRIZ VISUALS</h1>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li class="head"><a href="#">About Drizs ></a></li>
+                    <li class="head"><a href="#">Chapters</a></li>
+                    <li class="head"><a href="#">Upcoming Events</a></li>
+                    <li class="head login"><a href="#" style="color:white;" >Log in</a></li>
+                </ul>
+            </nav>
+            <button class="button_head"><a href="#">Search</a></button>
+        </div>
+    </div>
+    <img src="https://previews.123rf.com/images/executioner4/executioner42202/executioner4220200164/182328275-vector-realistic-isolated-neon-sign-of-tv-logo-for-template-decoration-and-invitation-covering.jpg">
+   <div>
+    <div class="container">
+        <p>Chitkara University - chandigarh,india</p>
+        <div id="link">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href=" https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+
+    
+   </div>
+    <div class="container-1">
+        <div id="cont-1">
+            <a href="">About</a>
+            <a href="">Upcoming Events</a>
+            <a href="">Past Events</a>
+            <a href="">Organizers</a>
+            <a href="">Photos</a>
+            <a href="">Video</a>
+        </div>
+        <div id="cont-2">
+            <h2>About</h2>
+        </div>
+        <div id="cont-3">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed at, aut similique molestiae unde
+                corrupti officia quo repellat eveniet ullam dolorum totam ipsam recusandae voluptas quos commodi
+                obcaecati qui architecto?</p>
+            <h2>What we do:</h2>
+            <ul>
+                <li>Hands-on conding workshops(Beginner and Experienced)</li>
+                <li>Build side projects</li>
+                <li>Compete in the soultion challenge</li>
+                <li>Networking events</li>
+                <li>Clouds Study: Jams</li>
+                <li>DG/DE expert Talks</li>
+            </ul>
+            <h2>How to join:</h2>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, exercitationem.</p>
+        </div>
+    </div>
+    <div class="container-2">
+        <div id="cont2-1">
+            <h2>Chapter Video</h2>
+        </div>
+        <div id="cont2-2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DQp382vlmAE?si=UA-Tf-EfBbA0Dkuh"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="container-3">
+        <button id="cont3-1">Contact US</button>
+    </div>
+    <div class="last"><p>Past Events</p></div>
+    <div class="details">
+        <div class="box box1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-DqpyN8h9XamEVXAV0eQBebBMLdrm5K_UQ&s" alt=""><h1>Season of Solutions</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa quod nostrum, ratione tempora omnis perferendis!</p></div>
+        <div class="box box1"><img src="https://www.workitdaily.com/media-library/happy-professional-man-on-laptop-finds-his-dream-job.jpg?id=35217460&width=1200&height=800&quality=85&coordinates=0%2C0%2C0%2C0" alt=""><h1>Google Cloud</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quaerat.</p></div>
+        <div class="box box1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStvGmWWjTRqCoGCY5Oy-iuF7gAHBKSRKDPA9WV8TIQSZe2oUuPRhWt2wCsslZKTebWyZQ&usqp=CAU" alt=""><h1>Python ATTP</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam.</p></div>
+        <div class="box box1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5P5Mh1NSK0KvyEiTptCKXWCshkNNnN3BjLPflhM-FvWXubQdZWn4KwhJQcEnLIkbqBiA&usqp=CAU" alt=""><h1>A gentle Introduction</h1><p>Lorem ipsum dolor sit amet.</p></div>
+    </div>
+    <div class="footer">
+        <div class="first_row">
+            <li><a href="#" style="font-weight: bold;">Quick Links</a></li>
+            <li><a href="#">About</a></li> 
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contacts</a></li>
+        </div>
+        <div class="second_row">
+            <h1>Follow Us</h1>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt=""></li>
+            <li><img src="https://cdn.pixabay.com/photo/2021/06/15/12/51/facebook-6338507_1280.png" alt=""></li>
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-h-e2hgz8mwGfCt4gvj4IgMG_wAUolVM6w&s" alt=""></li>
+            <li><img src="https://static.vecteezy.com/system/resources/previews/021/495/946/original/whatsapp-logo-icon-free-png.png" alt=""></li>
+        </div>
+    </div>
+</body>
+</html>
